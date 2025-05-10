@@ -1,0 +1,65 @@
+
+/*Home Page*/
+body {
+  background-color: peachpuff;
+  font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+  color: grey;
+  font-family:  'Times New Roman', Times, serif;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+  font-style: italic;
+}
+a {
+  color: slateblue;
+}
+/*Nav Bar*/
+nav ul {
+  background-color: sandybrown;
+  border-style: solid;
+  border-color: seashell;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px; /*border => Circular*/
+}
+nav ul li {
+  list-style-type: none; /*To remove the dots (bullet points) at the beginning of each list item */
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: PapayaWhip;
+}
+nav ul li a {
+  text-decoration: none; /*To remove the *underline* under the text.*/
+  color: olive;
+}
+img{
+  border-radius: 30px;
+}
+div{
+  position: relative;
+  padding-bottom: 40%;
+}
+/*Music*/
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse; /*This makes the borders merge together instead of each cell having its own separate square border*/
+}
+tr {
+  background-color: palegoldenrod;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+  color: purple;
+}
+iframe{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
